@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "MyApp",
-    "slug": "MyApp",
+    "name": "Rollnumber finder",
+    "slug": "Rollnumberfinder",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/kitten-mascot (1).png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/kitten-mascot (1).png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/kitten-mascot (1).png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.satyam_2652.Rollnumberfinder"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/kitten-mascot (1).png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "13505abb-09cd-4a1a-8921-35b4cb7bd529"
+      }
     }
   }
 }
